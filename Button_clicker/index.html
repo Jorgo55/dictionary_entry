@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <script src="/script.js"></script>
+    <header>
+      <nav>
+        <div class="nav">
+          <h1 class="dojonary">Dojonary</h1>
+          <input class="searchbar" type="text" value="search" />
+          <button onclick="turnOff(this)" class="login">Login</button>
+        </div>
+      </nav>
+      <main>
+        <div class="ninjaboxes">
+          <div class="mainbox1">
+            <div class="ninja">
+              <h1 class="ninjatext">ninja</h1>
+              <p class="noun">noun</p>
+              <p class="plural">Plural: ninjas</p>
+              <button onclick="alert('Ninja liked')" class="likes">
+                13 Likes
+              </button>
+            </div>
+            <div class="description">
+              <p id="descrip">
+                A practitioner skilled in the <a href="#">Japanese</a> art of
+                <a href="#">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+          <div class="mainbox1">
+            <div class="ninja">
+              <h1 class="ninjatext">ninja</h1>
+              <p class="noun">noun</p>
+              <p class="plural">Plural: ninjas</p>
+              <button onclick="alert('Ninja liked')" class="likes">
+                37 Likes
+              </button>
+            </div>
+            <div class="description">
+              <p id="descrip">
+                A <a href="#">programmer</a> who breaks down problems with
+                <a href="#">zen</a>-like focus
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sidebox">
+          <p>Dojonary is defined by you</p>
+          <button onclick="hide(this)" id="definition">Add definiton</button>
+        </div>
+      </main>
+    </header>
+  </body>
+</html>
